@@ -3,7 +3,7 @@
 #SBATCH --time=30:00
 #SBATCH --nodes=1
 #SBATCH --constraint=cpu
-#SBATCH --output=%j.log
+#SBATCH --output=logs/%j.log
 
 export OMP_NUM_THREADS=64
 export OPENBLAS_NUM_THREADS=64

@@ -1,0 +1,50 @@
+Loading images from /global/homes/d/dhaura/repos/graph-visualization/tsne/data/fashionMNIST/train-images-idx3-ubyte.gz
+Loading labels from /global/homes/d/dhaura/repos/graph-visualization/tsne/data/fashionMNIST/train-labels-idx1-ubyte.gz
+--------------------------------------------------------------------------------
+TSNE(early_exaggeration=12, n_jobs=64, perplexity=50, random_state=42,
+     verbose=True)
+--------------------------------------------------------------------------------
+===> Finding 150 nearest neighbors using Annoy approximate search using euclidean distance...
+   --> Time elapsed: 21.35 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 0.42 seconds
+===> Calculating PCA-based initialization...
+   --> Time elapsed: 0.60 seconds
+===> Running optimization with exaggeration=12.00, lr=4000.00 for 250 iterations...
+Iteration   50, KL divergence 4.8708, 50 iterations in 1.4911 sec
+Iteration  100, KL divergence 4.8420, 50 iterations in 1.6024 sec
+Iteration  150, KL divergence 4.8175, 50 iterations in 1.6092 sec
+Iteration  200, KL divergence 4.8042, 50 iterations in 1.2720 sec
+Iteration  250, KL divergence 4.7958, 50 iterations in 1.2150 sec
+   --> Time elapsed: 7.19 seconds
+===> Running optimization with exaggeration=1.00, lr=48000.00 for 500 iterations...
+Iteration   50, KL divergence 2.7531, 50 iterations in 1.3281 sec
+Iteration  100, KL divergence 2.5307, 50 iterations in 1.9116 sec
+Iteration  150, KL divergence 2.4291, 50 iterations in 2.6431 sec
+Iteration  200, KL divergence 2.3671, 50 iterations in 3.4601 sec
+Iteration  250, KL divergence 2.3245, 50 iterations in 4.3789 sec
+Iteration  300, KL divergence 2.2923, 50 iterations in 5.1953 sec
+Iteration  350, KL divergence 2.2675, 50 iterations in 5.7925 sec
+Iteration  400, KL divergence 2.2479, 50 iterations in 5.9536 sec
+Iteration  450, KL divergence 2.2314, 50 iterations in 6.8316 sec
+Iteration  500, KL divergence 2.2173, 50 iterations in 6.8945 sec
+   --> Time elapsed: 44.39 seconds
+===> Finding 15 nearest neighbors in existing embedding using Annoy approximate search...
+   --> Time elapsed: 1.91 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 0.01 seconds
+===> Running optimization with exaggeration=4.00, lr=0.10 for 0 iterations...
+   --> Time elapsed: 0.00 seconds
+===> Running optimization with exaggeration=1.50, lr=0.10 for 250 iterations...
+Iteration   50, KL divergence 168377.7551, 50 iterations in 0.2247 sec
+Iteration  100, KL divergence 167249.3135, 50 iterations in 0.2159 sec
+Iteration  150, KL divergence 166642.5814, 50 iterations in 0.2148 sec
+Iteration  200, KL divergence 166268.3233, 50 iterations in 0.2150 sec
+Iteration  250, KL divergence 166004.5695, 50 iterations in 0.2152 sec
+   --> Time elapsed: 1.09 seconds
+t-SNE completed in 77.4131 seconds with perplexity=50, n_jobs=64
+t-SNE visualization saved to /global/homes/d/dhaura/repos/graph-visualization/tsne/output/openTSNE/fashionMNIST_p_50.png
+KNNG Classifier Accuracy: 0.8139 in 0.0182 seconds with n_neighbors=10
+KNNG Classifier Accuracy: 0.8112 in 0.0171 seconds with n_neighbors=20
+KNNG Classifier Accuracy: 0.8073 in 0.0171 seconds with n_neighbors=50
+KNNG Classifier Accuracy: 0.8014 in 0.0171 seconds with n_neighbors=100

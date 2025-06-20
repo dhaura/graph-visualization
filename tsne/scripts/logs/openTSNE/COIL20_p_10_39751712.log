@@ -1,0 +1,13 @@
+Loaded 7200 samples with 16384 features each.
+Training set size: 5760, Test set size: 1440
+--------------------------------------------------------------------------------
+TSNE(early_exaggeration=12, n_jobs=64, perplexity=10, random_state=42,
+     verbose=True)
+--------------------------------------------------------------------------------
+===> Finding 30 nearest neighbors using Annoy approximate search using euclidean distance...
+   --> Time elapsed: 48.88 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 0.06 seconds
+===> Calculating PCA-based initialization...
+   --> Time elapsed: 1.23 seconds
+===> Running optimization with exaggeration=12.00, lr=480.00 for 250 iterations...

@@ -1,0 +1,48 @@
+--------------------------------------------------------------------------------
+TSNE(early_exaggeration=12, n_jobs=64, perplexity=100, random_state=42,
+     verbose=True)
+--------------------------------------------------------------------------------
+===> Finding 300 nearest neighbors using Annoy approximate search using euclidean distance...
+   --> Time elapsed: 0.22 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 0.02 seconds
+===> Calculating PCA-based initialization...
+   --> Time elapsed: 0.02 seconds
+===> Running optimization with exaggeration=12.00, lr=119.75 for 250 iterations...
+Iteration   50, KL divergence 2.5103, 50 iterations in 74.4817 sec
+Iteration  100, KL divergence 2.4964, 50 iterations in 56.2668 sec
+Iteration  150, KL divergence 2.4964, 50 iterations in 51.7026 sec
+Iteration  200, KL divergence 2.4964, 50 iterations in 49.2561 sec
+Iteration  250, KL divergence 2.4965, 50 iterations in 47.5425 sec
+   --> Time elapsed: 279.25 seconds
+===> Running optimization with exaggeration=1.00, lr=1437.00 for 500 iterations...
+Iteration   50, KL divergence 0.6502, 50 iterations in 63.8192 sec
+Iteration  100, KL divergence 0.6180, 50 iterations in 59.3624 sec
+Iteration  150, KL divergence 0.6052, 50 iterations in 58.5589 sec
+Iteration  200, KL divergence 0.5998, 50 iterations in 57.4110 sec
+Iteration  250, KL divergence 0.5934, 50 iterations in 58.8336 sec
+Iteration  300, KL divergence 0.5843, 50 iterations in 58.5339 sec
+Iteration  350, KL divergence 0.5837, 50 iterations in 58.9351 sec
+Iteration  400, KL divergence 0.5834, 50 iterations in 58.6622 sec
+Iteration  450, KL divergence 0.5830, 50 iterations in 58.7700 sec
+Iteration  500, KL divergence 0.5827, 50 iterations in 59.2407 sec
+   --> Time elapsed: 592.13 seconds
+===> Finding 15 nearest neighbors in existing embedding using Annoy approximate search...
+   --> Time elapsed: 0.03 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 0.00 seconds
+===> Running optimization with exaggeration=4.00, lr=0.10 for 0 iterations...
+   --> Time elapsed: 0.00 seconds
+===> Running optimization with exaggeration=1.50, lr=0.10 for 250 iterations...
+Iteration   50, KL divergence 3020.4925, 50 iterations in 15.3370 sec
+Iteration  100, KL divergence 3020.1557, 50 iterations in 15.2003 sec
+Iteration  150, KL divergence 3020.1556, 50 iterations in 15.2956 sec
+Iteration  200, KL divergence 3020.1556, 50 iterations in 15.3623 sec
+Iteration  250, KL divergence 3020.1556, 50 iterations in 15.0229 sec
+   --> Time elapsed: 76.22 seconds
+t-SNE completed in 950.7317 seconds with perplexity=100, n_jobs=64
+t-SNE visualization saved to /global/homes/d/dhaura/repos/graph-visualization/tsne/output/openTSNE/pendigits_p_100.png
+KNNG Classifier Accuracy: 0.9861 in 0.0016 seconds with n_neighbors=10
+KNNG Classifier Accuracy: 0.9833 in 0.0007 seconds with n_neighbors=20
+KNNG Classifier Accuracy: 0.9667 in 0.0007 seconds with n_neighbors=50
+KNNG Classifier Accuracy: 0.9500 in 0.0007 seconds with n_neighbors=100
