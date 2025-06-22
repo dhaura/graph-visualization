@@ -196,5 +196,6 @@ cython_debug/
 tsne/test/data/
 tsne/data/
 
-# Test
+# Logs
 tsne/test/logs
+tsne/scripts/logs/data_prep

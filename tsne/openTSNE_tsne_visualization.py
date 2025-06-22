@@ -69,11 +69,7 @@ elif (args.input_type == 2):
     images = np.loadtxt(args.input, dtype=float, delimiter=' ')
     labels = np.loadtxt(args.labels, dtype=int, usecols=1)
 
-print(f"Loaded {images.shape[0]} samples with {images.shape[1]} features each.")
-
 X_train, X_test, y_train, y_test = train_test_split(images, labels, test_size=0.2, random_state=42)
-
-print(f"Training set size: {X_train.shape[0]}, Test set size: {X_test.shape[0]}")
 
 # Setting up the TSNE model with specified parameters.
 t0 = time()
