@@ -16,6 +16,6 @@ conda install -c conda-forge opentsne
 module load python/3.10
 python3 -m venv venv
 source venv/bin/activate
-pip3 install matplotlib numpy
+pip3 install matplotlib numpy scipy
 pip3 install -U scikit-learn
 ```
