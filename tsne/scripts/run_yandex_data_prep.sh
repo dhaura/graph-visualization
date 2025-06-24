@@ -3,7 +3,7 @@
 #SBATCH --time=30:00
 #SBATCH --nodes=1
 #SBATCH --constraint=cpu
-#SBATCH --output=logs/data_prep/sift_data_prep_%j.log
+#SBATCH --output=logs/data_prep/yandex_data_prep_%j.log
 
 
 source ~/repos/graph-visualization/venv/bin/activate

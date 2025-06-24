@@ -65,15 +65,15 @@ mse = np.mean((tsne_1_aligned - tsne_2_aligned)**2)
 print(f"Embedding stability (Procrustes MSE): {mse:.4e}")
 
 # Calculate KNN overlap for link prediction.
+k = 10
 
-for k in [10]:
-    # Original space KNN.
-    knn_orig = NearestNeighbors(n_neighbors=k).fit(X)
-    orig_neighbors = knn_orig.kneighbors(return_distance=False)
+# Original space KNN.
+knn_orig = NearestNeighbors(n_neighbors=k).fit(X)
+orig_neighbors = knn_orig.kneighbors(return_distance=False)
 
-    # Embedding space KNN.
-    knn_emb = NearestNeighbors(n_neighbors=k).fit(Y_1)
-    emb_neighbors = knn_emb.kneighbors(return_distance=False)
+# Embedding space KNN.
+knn_emb = NearestNeighbors(n_neighbors=k).fit(Y_1)
+emb_neighbors = knn_emb.kneighbors(return_distance=False)
 
-    link_pred_score = knn_overlap(orig_neighbors, emb_neighbors)
-    print(f"Link prediction score (KNN overlap): {link_pred_score:.4f}")
+link_pred_score = knn_overlap(orig_neighbors, emb_neighbors)
+print(f"Link prediction score (KNN overlap): {link_pred_score:.4f}")
