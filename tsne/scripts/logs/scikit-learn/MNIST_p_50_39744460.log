@@ -1,0 +1,7 @@
+Loading images from /global/cfs/cdirs/m4293/visulaization_paper/small_scale/MNIST/train-images-idx3-ubyte
+t-SNE completed in 107.8261 seconds with perplexity=50, n_components=2, max_iter=1000, n_jobs=64
+t-SNE visualization saved to /global/homes/d/dhaura/repos/graph-visualization/tsne/output/scikit-learn/MNIST_p_50.png
+KNNG Classifier Accuracy: 0.9690 in 0.0186 seconds with n_neighbors=10
+KNNG Classifier Accuracy: 0.9676 in 0.0191 seconds with n_neighbors=20
+KNNG Classifier Accuracy: 0.9649 in 0.0171 seconds with n_neighbors=50
+KNNG Classifier Accuracy: 0.9611 in 0.0171 seconds with n_neighbors=100

@@ -1,0 +1,8 @@
+Loading images from /global/homes/d/dhaura/repos/graph-visualization/tsne/data/fashionMNIST/train-images-idx3-ubyte.gz
+Loading labels from /global/homes/d/dhaura/repos/graph-visualization/tsne/data/fashionMNIST/train-labels-idx1-ubyte.gz
+t-SNE completed in 91.0285 seconds with perplexity=30, n_components=2, max_iter=1000, n_jobs=64
+t-SNE visualization saved to /global/homes/d/dhaura/repos/graph-visualization/tsne/output/scikit-learn/fashionMNIST_p_30.png
+KNNG Classifier Accuracy: 0.8368 in 0.0190 seconds with n_neighbors=10
+KNNG Classifier Accuracy: 0.8341 in 0.0185 seconds with n_neighbors=20
+KNNG Classifier Accuracy: 0.8222 in 0.0186 seconds with n_neighbors=50
+KNNG Classifier Accuracy: 0.8127 in 0.0187 seconds with n_neighbors=100

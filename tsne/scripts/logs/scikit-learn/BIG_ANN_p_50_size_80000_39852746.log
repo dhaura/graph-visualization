@@ -1,0 +1,3 @@
+t-SNE completed in 142.2255 seconds with perplexity=50, n_components=2, max_iter=1000, n_jobs=64
+Embedding stability (Procrustes MSE): 1.2526e-01
+Link prediction score (KNN overlap): 0.2512

@@ -1,0 +1,6 @@
+t-SNE completed in 104.7327 seconds with perplexity=50, n_components=2, max_iter=1000, n_jobs=64
+t-SNE visualization saved to /global/homes/d/dhaura/repos/graph-visualization/tsne/output/scikit-learn/shuttle_p_50.png
+KNNG Classifier Accuracy: 0.9978 in 0.0185 seconds with n_neighbors=10
+KNNG Classifier Accuracy: 0.9978 in 0.0190 seconds with n_neighbors=20
+KNNG Classifier Accuracy: 0.9959 in 0.0178 seconds with n_neighbors=50
+KNNG Classifier Accuracy: 0.9947 in 0.0178 seconds with n_neighbors=100
