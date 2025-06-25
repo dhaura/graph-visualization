@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --qos=regular
-#SBATCH --time=02:00:00
+#SBATCH --time=02:30:00
 #SBATCH --nodes=1
 #SBATCH --constraint=cpu
 #SBATCH --output=logs/scikit-learn/__DATASET___p___PERPLEXITY___size___SIZE___%j.log
