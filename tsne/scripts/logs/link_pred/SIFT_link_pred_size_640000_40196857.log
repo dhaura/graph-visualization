@@ -1,0 +1,4 @@
+Running native...
+Size of X: 640000
+15347763 15347763 10246380
+Link predictions (Hadamard): 0.5 :Accuracy: 0.7588178968610672 F1-macro: 0.7121513502084538 F1-micro: 0.7588178968610672
