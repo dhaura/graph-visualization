@@ -199,3 +199,4 @@ tsne/data/
 # Logs
 tsne/test/logs
 tsne/scripts/logs/data_prep
+tsne/scripts/logs/knng_gen
