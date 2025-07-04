@@ -8,7 +8,6 @@ from scipy.io import mmread, mminfo
 from scipy.sparse import csr_matrix
 import sys
 import networkx as nx
-from networkx.algorithms import community
 import random, math
 import numpy as np
 from networkx.algorithms.community import greedy_modularity_communities
@@ -136,48 +135,3 @@ for tf in ltrainfrac:
     f1macro = f1_score(predictedY, testY, average='macro', labels=np.unique(predictedY))
     f1micro = f1_score(predictedY, testY, average='micro', labels=np.unique(predictedY))
     print("Link predictions (Hadamard):", tf, ":Accuracy:", acc, "F1-macro:", f1macro, "F1-micro:", f1micro)
-
-'''
-Xt, Yt = makeLinkPredictionData(graph, X, "l1")
-ltrainfrac = [0.50]
-for tf in ltrainfrac:
-    CV = int(len(Yt) * tf)
-    trainX = Xt[0:CV]
-    testX = Xt[CV:]
-    trainY = Yt[0:CV]
-    testY = Yt[CV:]
-    modelLR = LogisticRegression().fit(trainX, trainY)
-    predictedY = modelLR.predict(testX)
-    acc = accuracy_score(predictedY, testY)
-    f1macro = f1_score(predictedY, testY, average='macro', labels=np.unique(predictedY))
-    f1micro = f1_score(predictedY, testY, average='micro', labels=np.unique(predictedY))
-    print("Link predictions(L1):", tf, ":Accuracy:",acc, "F1-macro:", f1macro, "F1-micro:",f1micro)
-
-Xt, Yt = makeLinkPredictionData(graph, X, "l2")
-ltrainfrac = [0.50]
-for tf in ltrainfrac:
-    CV = int(len(Yt) * tf)
-    trainX = Xt[0:CV]
-    testX = Xt[CV:]
-    trainY = Yt[0:CV]
-    testY = Yt[CV:]
-    modelLR = LogisticRegression().fit(trainX, trainY)
-    predictedY = modelLR.predict(testX)
-    acc = accuracy_score(predictedY, testY)
-    f1macro = f1_score(predictedY, testY, average='macro', labels=np.unique(predictedY))
-    f1micro = f1_score(predictedY, testY, average='micro', labels=np.unique(predictedY))
-    print("Link predictions(L2):", tf, ":Accuracy:",acc, "F1-macro:", f1macro, "F1-micro:",f1micro)
-
-Xt, Yt = makeLinkPredictionData(graph, X, "average")
-ltrainfrac = [0.50]
-for tf in ltrainfrac:
-    CV = int(len(Yt) * tf)
-    trainX = Xt[0:CV]
-    testX = Xt[CV:]
-    trainY = Yt[0:CV]
-    testY = Yt[CV:]
-    modelLR = LogisticRegression().fit(trainX, trainY)
-    predictedY = modelLR.predict(testX)
-    acc = accuracy_score(predictedY, testY)
-    f1macro = f1_score(predictedY, testY, average='macro', labels=np.unique(predictedY))
-'''
