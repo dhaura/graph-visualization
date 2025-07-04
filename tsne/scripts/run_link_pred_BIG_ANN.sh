@@ -6,7 +6,7 @@ DIM=128
 INIT_DATASET_SIZE=20000
 PERPLEXITY=50
 
-for i in {5..6}; do
+for i in {0..6}; do
     DATASET_SIZE=$((2**i * INIT_DATASET_SIZE))
 
     if [ $DATASET_SIZE -gt 1000000 ]; then
