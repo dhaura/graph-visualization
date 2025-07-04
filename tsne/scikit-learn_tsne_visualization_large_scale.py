@@ -2,8 +2,6 @@ import argparse
 from time import time
 from sklearn import manifold
 import numpy as np
-from scipy.spatial import procrustes
-from sklearn.neighbors import NearestNeighbors
 
 # Argument parser for command line arguments.
 parser = argparse.ArgumentParser()
