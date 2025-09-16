@@ -1,0 +1,49 @@
+Loading images from /global/cfs/cdirs/m4293/visulaization_paper/small_scale/MNIST/train-images-idx3-ubyte
+--------------------------------------------------------------------------------
+TSNE(early_exaggeration=12, n_jobs=128, perplexity=10, random_state=42,
+     verbose=True)
+--------------------------------------------------------------------------------
+===> Finding 30 nearest neighbors using Annoy approximate search using euclidean distance...
+   --> Time elapsed: 19.36 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 0.09 seconds
+===> Calculating PCA-based initialization...
+   --> Time elapsed: 0.97 seconds
+===> Running optimization with exaggeration=12.00, lr=4000.00 for 250 iterations...
+Iteration   50, KL divergence 6.5558, 50 iterations in 1.0361 sec
+Iteration  100, KL divergence 6.2375, 50 iterations in 1.0509 sec
+Iteration  150, KL divergence 6.1155, 50 iterations in 1.0588 sec
+Iteration  200, KL divergence 6.0591, 50 iterations in 1.0517 sec
+Iteration  250, KL divergence 6.0283, 50 iterations in 1.0899 sec
+   --> Time elapsed: 5.29 seconds
+===> Running optimization with exaggeration=1.00, lr=48000.00 for 500 iterations...
+Iteration   50, KL divergence 4.0141, 50 iterations in 1.2031 sec
+Iteration  100, KL divergence 3.6660, 50 iterations in 1.8433 sec
+Iteration  150, KL divergence 3.4777, 50 iterations in 2.5595 sec
+Iteration  200, KL divergence 3.3505, 50 iterations in 3.3756 sec
+Iteration  250, KL divergence 3.2556, 50 iterations in 4.1549 sec
+Iteration  300, KL divergence 3.1803, 50 iterations in 4.8621 sec
+Iteration  350, KL divergence 3.1189, 50 iterations in 5.4436 sec
+Iteration  400, KL divergence 3.0670, 50 iterations in 6.4725 sec
+Iteration  450, KL divergence 3.0222, 50 iterations in 7.1005 sec
+Iteration  500, KL divergence 2.9834, 50 iterations in 7.8642 sec
+   --> Time elapsed: 44.89 seconds
+===> Finding 15 nearest neighbors in existing embedding using Annoy approximate search...
+   --> Time elapsed: 1.88 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 0.01 seconds
+===> Running optimization with exaggeration=4.00, lr=0.10 for 0 iterations...
+   --> Time elapsed: 0.00 seconds
+===> Running optimization with exaggeration=1.50, lr=0.10 for 250 iterations...
+Iteration   50, KL divergence 172124.5122, 50 iterations in 0.2932 sec
+Iteration  100, KL divergence 170621.7532, 50 iterations in 0.2827 sec
+Iteration  150, KL divergence 169698.5929, 50 iterations in 0.2816 sec
+Iteration  200, KL divergence 169083.8726, 50 iterations in 0.2815 sec
+Iteration  250, KL divergence 168632.5935, 50 iterations in 0.2796 sec
+   --> Time elapsed: 1.42 seconds
+t-SNE completed in 74.5229 seconds with perplexity=10, n_jobs=128
+t-SNE visualization saved to /global/homes/d/dhaura/repos/graph-visualization/tsne/output/openTSNE/MNIST_p_10.png
+KNNG Classifier Accuracy: 0.9503 in 0.0184 seconds with n_neighbors=10
+KNNG Classifier Accuracy: 0.9501 in 0.0178 seconds with n_neighbors=20
+KNNG Classifier Accuracy: 0.9491 in 0.0174 seconds with n_neighbors=50
+KNNG Classifier Accuracy: 0.9493 in 0.0174 seconds with n_neighbors=100

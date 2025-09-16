@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------------
+TSNE(early_exaggeration=12, n_jobs=128, perplexity=50, random_state=42,
+     verbose=True)
+--------------------------------------------------------------------------------
+===> Finding 150 nearest neighbors using Annoy approximate search using euclidean distance...
+   --> Time elapsed: 104.19 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 2.10 seconds
+===> Calculating PCA-based initialization...
+   --> Time elapsed: 1.20 seconds
+===> Running optimization with exaggeration=12.00, lr=26666.67 for 250 iterations...
+Iteration   50, KL divergence 7.7678, 50 iterations in 5.6549 sec
+Iteration  100, KL divergence 7.8103, 50 iterations in 5.0788 sec
+Iteration  150, KL divergence 7.8172, 50 iterations in 4.8823 sec
+Iteration  200, KL divergence 7.8163, 50 iterations in 4.6523 sec
+Iteration  250, KL divergence 7.8160, 50 iterations in 4.5946 sec
+   --> Time elapsed: 24.87 seconds
+===> Running optimization with exaggeration=1.00, lr=320000.00 for 500 iterations...
+Iteration   50, KL divergence 5.6885, 50 iterations in 4.7240 sec
+Iteration  100, KL divergence 5.4649, 50 iterations in 5.3163 sec
+Iteration  150, KL divergence 5.3518, 50 iterations in 6.7264 sec
+Iteration  200, KL divergence 5.2807, 50 iterations in 7.7904 sec
+Iteration  250, KL divergence 5.2303, 50 iterations in 8.6494 sec
+Iteration  300, KL divergence 5.1918, 50 iterations in 9.4409 sec
+Iteration  350, KL divergence 5.1609, 50 iterations in 10.8068 sec
+Iteration  400, KL divergence 5.1352, 50 iterations in 11.6717 sec
+Iteration  450, KL divergence 5.1133, 50 iterations in 12.5804 sec
+Iteration  500, KL divergence 5.0944, 50 iterations in 13.5068 sec
+   --> Time elapsed: 91.22 seconds
+--------------------------------------------------------------------------------
+TSNE(early_exaggeration=12, n_jobs=128, perplexity=50, random_state=42,
+     verbose=True)
+--------------------------------------------------------------------------------
+===> Finding 150 nearest neighbors using Annoy approximate search using euclidean distance...
+   --> Time elapsed: 107.87 seconds
+===> Calculating affinity matrix...
+   --> Time elapsed: 1.95 seconds
+===> Calculating PCA-based initialization...
+   --> Time elapsed: 1.05 seconds
+===> Running optimization with exaggeration=12.00, lr=26666.67 for 250 iterations...
+Iteration   50, KL divergence 7.7678, 50 iterations in 5.7363 sec
+Iteration  100, KL divergence 7.8103, 50 iterations in 5.7797 sec
+Iteration  150, KL divergence 7.8172, 50 iterations in 5.8471 sec
+Iteration  200, KL divergence 7.8163, 50 iterations in 5.7854 sec
+Iteration  250, KL divergence 7.8160, 50 iterations in 5.7959 sec
+   --> Time elapsed: 28.95 seconds
+===> Running optimization with exaggeration=1.00, lr=320000.00 for 500 iterations...
+Iteration   50, KL divergence 5.6885, 50 iterations in 5.9095 sec
+Iteration  100, KL divergence 5.4649, 50 iterations in 6.6453 sec
+Iteration  150, KL divergence 5.3518, 50 iterations in 8.1011 sec
+Iteration  200, KL divergence 5.2807, 50 iterations in 9.2480 sec
+Iteration  250, KL divergence 5.2303, 50 iterations in 9.9128 sec
+Iteration  300, KL divergence 5.1918, 50 iterations in 9.8725 sec
+Iteration  350, KL divergence 5.1609, 50 iterations in 11.2662 sec
+Iteration  400, KL divergence 5.1352, 50 iterations in 12.2259 sec
+Iteration  450, KL divergence 5.1133, 50 iterations in 13.1227 sec
+Iteration  500, KL divergence 5.0944, 50 iterations in 13.9742 sec
+   --> Time elapsed: 100.29 seconds
+t-SNE completed in 232.3563 seconds with perplexity=50, n_jobs=128
+Embedding stability (Procrustes MSE): 1.5625e-06

@@ -1,0 +1,25 @@
+OpenBLAS warning: precompiled NUM_THREADS exceeded, adding auxiliary array for thread metadata.
+To avoid this warning, please rebuild your copy of OpenBLAS with a larger NUM_THREADS setting
+or set the environment variable OPENBLAS_NUM_THREADS to 64 or lower
+OpenBLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+OpenBLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+This library was built to support a maximum of 128 threads - either rebuild OpenBLAS
+with a larger NUM_THREADS value or set the environment variable OPENBLAS_NUM_THREADS to
+a sufficiently small number. This error typically occurs when the software that relies on
+OpenBLAS calls BLAS functions from many threads in parallel, or when your computer has more
+cpu cores than what OpenBLAS was configured to handle.
+OpenBLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+OpenBLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+This library was built to support a maximum of 128 threads - either rebuild OpenBLAS
+with a larger NUM_THREADS value or set the environment variable OPENBLAS_NUM_THREADS to
+a sufficiently small number. This error typically occurs when the software that relies on
+OpenBLAS calls BLAS functions from many threads in parallel, or when your computer has more
+cpu cores than what OpenBLAS was configured to handle.
+OpenBLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+OpenBLAS : Program is Terminated. Because you tried to allocate too many memory regions.
+This library was built to support a maximum of 128 threads - either rebuild OpenBLAS
+with a larger NUM_THREADS value or set the environment variable OPENBLAS_NUM_THREADS to
+a sufficiently small number. This error typically occurs when the software that relies on
+OpenBLAS calls BLAS functions from many threads in parallel, or when your computer has more
+cpu cores than what OpenBLAS was configured to handle.
+OpenBLAS : Program is Terminated. Because you tried to allocate too many memory regions./var/spool/slurmd/job42292512/slurm_script: line 18: 741142 Segmentation fault      python3 ~/repos/graph-visualization/tsne/scikit-learn_tsne_visualization_large_scale.py -input /pscratch/sd/d/dhaura/datasets/graph-viz/SIFT/SIFT_subset_20000.txt -output /pscratch/sd/d/dhaura/datasets/graph-viz/output/scikit-learn/embeddings/SIFT_embed_p_50_size_20000.txt -n_jobs 128 -perplexity 50 -n_components 2 -max_iter 1000

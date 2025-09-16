@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------------
+TSNE(early_exaggeration=12, n_jobs=128, perplexity=50, random_state=42,
+     verbose=True)
+--------------------------------------------------------------------------------
+===> Finding 150 nearest neighbors using Annoy approximate search using euclidean distance...
+   --> Time elapsed: 11544.09 seconds
+===> Calculating affinity matrix...
+/var/spool/slurmd/job42683807/slurm_script: line 18: 1541718 Killed                  python3 ~/repos/graph-visualization/tsne/openTSNE_tsne_visualization_large_scale.py -input /pscratch/sd/d/dhaura/datasets/graph-viz/YANDEX/YANDEX_subset_64000000.txt -output /pscratch/sd/d/dhaura/datasets/graph-viz/output/openTSNE/embeddings/YANDEX_embed_p_50_size_64000000.txt -n_jobs 128 -perplexity 50
+slurmstepd: error: Detected 1 oom_kill event in StepId=42683807.batch. Some of the step tasks have been OOM Killed.

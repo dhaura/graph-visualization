@@ -1,0 +1,16 @@
+
+Lmod is automatically replacing "PrgEnv-gnu/8.5.0" with "PrgEnv-intel/8.5.0".
+
+
+Lmod is automatically replacing "gcc-native/13.2" with "intel/2024.1.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/24.07.0     2) cray-mpich/8.1.30
+
+OpenBLAS warning: precompiled NUM_THREADS exceeded, adding auxiliary array for thread metadata.
+To avoid this warning, please rebuild your copy of OpenBLAS with a larger NUM_THREADS setting
+or set the environment variable OPENBLAS_NUM_THREADS to 64 or lower
+BLAS : Bad memory unallocation! :  640  0x7f22337fb000
+corrupted size vs. prev_size
+/var/spool/slurmd/job42326111/slurm_script: line 18: 393953 Aborted                 python3 ~/repos/graph-visualization/tsne/scikit-learn_tsne_visualization_large_scale.py -input /pscratch/sd/d/dhaura/datasets/graph-viz/SIFT/SIFT_subset_20000.txt -output /pscratch/sd/d/dhaura/datasets/graph-viz/output/scikit-learn/embeddings/SIFT_embed_p_50_size_20000.txt -n_jobs 120 -perplexity 50 -n_components 2 -max_iter 1000
